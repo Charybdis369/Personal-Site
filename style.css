@@ -1,0 +1,49 @@
+/*Reset css*/
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*-Css for header-*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 4rem;
+    width: 100vw;
+
+    border: 1px solid black;
+
+    background-color: rgb(119, 20, 205);
+}
+
+header>div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+img {
+    height: 100%;
+}
+
+h1 {
+    margin-left: 1 rem;
+    color: goldenrod;
+    font-weight:bold;
+    font-size: large;
+    font-family: Helvetica;
+}
+
+nav>a {
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: goldenrod;
+}
+
+/* end of header*/
