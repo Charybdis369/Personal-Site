@@ -19,7 +19,7 @@ header {
 
     border: 1px solid black;
 
-    background-color: rgb(119, 20, 205);
+    background-color: #001c30;
 }
 
 header>div {
@@ -34,7 +34,7 @@ img {
 
 h1 {
     margin-left: 1 rem;
-    color: goldenrod;
+    color: #dafffb;
     font-weight:bold;
     font-size: large;
     font-family: Helvetica;
@@ -43,7 +43,57 @@ h1 {
 nav>a {
     margin-right: 1rem;
     font-size: 1rem;
-    color: goldenrod;
+    color: #dafffb;
 }
 
 /* end of header*/
+
+/* Start of main */
+
+main {
+    min-height: 80vw;
+    min-width: 70vw;
+    background-color: #176b87;
+}
+
+aside {
+    min-height: 80vw;
+    min-width: 15vw;
+    background-color: #64ccc5;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body>div {
+    display: flex;
+}
+
+/* End of main*/
+
+/* Footer */
+
+footer {
+    width: 100vw;
+    height: 10vw;
+    background-color: #001c30;
+}
+
+/* Text on home.html */
+.hometext {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    padding: .5em;
+}
