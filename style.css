@@ -97,3 +97,36 @@ p {
     display: block;
     padding: .5em;
 }
+
+.goat {
+    height: 7em;
+    width: 7em;
+    float: right;
+    padding-right: .5em;
+}
+
+.priscilla {
+    height: 8em;
+    width: 6em;
+    float: left;
+    padding-left: .5em;
+}
+
+.code {
+    height: 7em;
+    width: 8em;
+    float: right;
+    padding-right: .5em;
+}
+
+.ab1 {
+    margin-top: 1em;
+}
+
+.ab2 {
+    margin-top: 3em;
+}
+
+.ab3 {
+    margin-top: 5em;
+}
