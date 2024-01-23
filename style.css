@@ -33,7 +33,7 @@ img {
 }
 
 h1 {
-    margin-left: 1 rem;
+    margin-left: 1em;
     color: #dafffb;
     font-weight:bold;
     font-size: large;
@@ -147,4 +147,15 @@ p {
     height: 5em;
     float: right;
     margin-right: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+input {
+   margin-top: .2em;
+   margin-bottom: .2em;
 }
