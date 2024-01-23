@@ -130,3 +130,21 @@ p {
 .ab3 {
     margin-top: 5em;
 }
+
+.picasso {
+    height: 5em;
+}
+
+.gl {
+    height: 5em;
+}
+
+.pic {
+    height: 5em;
+}
+
+.cb {
+    height: 5em;
+    float: right;
+    margin-right: 1em;
+}
